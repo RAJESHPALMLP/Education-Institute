@@ -1,0 +1,433 @@
+*{
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    text-decoration: solid;
+}
+/*body*/
+body{
+    margin: 0px;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+/* topbar*/
+#topbar{
+    background-color:#4682b4;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    margin: 0%;
+    color: whitesmoke;
+    margin-top: 3px;
+}
+#social-icon{
+    float: right;
+   padding: 2px;
+
+}
+.fab{
+    background-color:whitesmoke ;
+    color: #676e67;
+    padding: 7px;
+    border-radius: 50%;
+}
+/*logo-bar*/
+#logobar2
+{
+    width: 600px;
+    height: 100px;
+    margin-left: 100px;
+    border: #222f3e;
+    
+}
+/* navbar*/
+#navbar{
+    background-color:#4682b4;
+  
+   
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+   display: inline-flex;
+   padding: 18px 0px;
+   padding-right:18px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+   
+}
+/*===================menubar=======================*/
+ 
+.sub-menu-1
+{
+    display: none;
+}
+
+#navbar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:#4682b4;
+    margin-top: 35px;
+    margin-left: 15px;
+    
+    }
+#navbar ul li:hover .sub-menu-1 ul {
+        display:block;
+        margin: 10px;
+    
+    }
+   
+    #navabr #m1 li:hover .sub-menu-1 ul{
+        display: block;
+       margin: 10px;
+    
+    }
+    navbar ul li:hover .sub-menu-1 ul li{
+        width: 100px;
+        padding: 15px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+/*----------------middle portion-----------------------*/
+
+
+
+
+
+
+#middle-portion{
+    width: 81.5%;
+    height:500px;
+    border: 2px solid rgb(67, 94, 85);
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    margin-bottom: 8px;
+    position: relative;
+    margin-left: 150px;
+  
+}
+#navbar #middle-portion ul :hover{
+    position:relative;
+}
+
+
+.silde img{
+    width: 85%;
+    height: 50%;
+   margin-left: 7%;
+   margin-top: 2%;
+    
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px ;
+    font-size: 25px;
+    border-radius: 45%;
+}
+.next{
+    right:0px;
+}
+.caption{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 10px 0px;
+}
+
+.silde{
+    display: none;
+   
+}
+
+#middle-2
+{
+    width:100%;
+    height:550px;
+    margin-left: 1px;
+    background-color: #4682b4;
+    color:white;
+   font-weight: bold;
+    
+}
+.notice1{
+    color: white;
+}
+.m1{
+    
+    float: left;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/*==============footer*============================*/
+
+
+
+#imp-link{
+    background-color: #576574;
+    color:white;
+    overflow: auto;
+    
+}
+.div33{
+    width: 33.3%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    /*text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness:3px ;*/
+}
+#footer-menu{
+list-style-type: none;
+padding: 0px;
+}
+#footer-menu li a{
+    padding-bottom: 20x;
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copywrite
+{
+    background-color: #222f3e;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#navbar ul #mobile-cross,#mobile-bar
+{
+display: none;
+}
+
+/* ipad response*/
+@media only screen and (max-width: 1025px) {
+    .div33{
+    width: 100%;
+    
+         }
+#footer-menu-container{
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+#mobile-cross{
+    display: none;
+}
+#middle-portion{
+    width: 94%;
+    height:400px;
+    border: 2px solid rgb(67, 94, 85);
+    margin-left: 28px;
+    position: relative;
+    margin-bottom: 8px;
+    position: relative;
+   
+}
+
+#middle-2
+{
+    width:100%;
+    height:350px;
+    margin-left: ;
+   
+
+}
+
+#middle-portion .silde img{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    margin-left:45px;
+    margin-top: 35px;
+    
+}
+
+
+.div33{
+    width: 33.3%;
+    float: left;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+    }
+
+
+
+/* Mobile menu*/
+@media only screen and (max-width: 500px)
+{
+        
+#logober2 {
+    width: 52px;
+   
+}
+
+#navbar{
+        background-color: #ee5253;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+#navbar ul li{
+      display: block;
+      padding: 10px 0px;
+      padding-right: 35px;
+      border-bottom: 1px solid #d8d1d1;
+      padding-left: 20px;
+  }
+    #mobile-cross
+    {
+        text-align:right;
+    }
+    .fa-times-circle{
+        font-size: 25px;
+
+    }
+    #navbar{
+        left: -280px;
+        transition: all .03 s ease;
+    }
+    #mobile-bar{
+        background-color:#4682b4;
+        color: white;
+        padding: 20px;
+        font-size: 28px;
+    }
+#navbar ul #mobile-cross,#mobile-bar
+{
+display:block;
+}
+
+
+#middle-portion{
+    width: 88%;
+    height:30%px;
+    border: 2px solid rgb(67, 94, 85);
+    
+    position: relative;
+    margin-bottom: 8px;
+    position: relative;
+    
+}
+#middle-portion .uni-padding{
+    padding:0px;
+}
+#navbar #middle-portion ul :hover{
+    position:relative;
+}
+
+
+.silde img{
+    width: 35%;
+    height: 30%;
+    
+    
+    
+    
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color:black;
+    background-color: white;
+    padding: 2px 2px ;
+    font-size: 10px;
+    border-radius: 45%;
+
+}
+.next{
+    right:0px;
+
+}
+
+.caption{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 5px 0px;
+}
+
+.silde{
+    display: none;
+    margin-left: px;
+    height: 80%;
+    width: 80%;
+}
+
+#middle-2
+{
+    width:95%;
+    height:550px;
+    margin: 10px;
+    margin-right: 5px;
+
+}
+.m1{
+    
+    float: left;
+    box-sizing: border-box;
+}
+
+#footer-menu-container
+{
+    padding-left: 10px;
+}
+  
+
+
+
+
+
+
+
+
+}
+
+  
